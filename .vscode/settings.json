@@ -1,0 +1,14 @@
+{
+  "locofyConfig": {
+    "project_name": "AI_desktop",
+    "id": "65b2005d07c4f41fb0a40e20",
+    "framework": "html-css",
+    "typescript": false,
+    "path": "public/",
+    "componentsPath": "c:\\Users\\hongn\\OneDrive\\Máy tính\\G06\\src\\components",
+    "screensPath": "c:\\Users\\hongn\\OneDrive\\Máy tính\\G06\\src\\pages",
+    "styling": "CSS",
+    "unit": "px",
+    "naming": "Kebab Case"
+  }
+}

@@ -1,0 +1,123 @@
+.generalapps-icon {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon-change-size-here {
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  position: relative;
+  line-height: 22px;
+}
+.wrapper {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-xs);
+  gap: var(--gap-base);
+}
+.vertical-menu-item2rd-level {
+  align-self: stretch;
+  border-radius: var(--br-11xs);
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-5xs) var(--padding-4xs)
+    var(--padding-11xl);
+}
+.vertical-menu-item2rd-level1 {
+  align-self: stretch;
+  border-radius: var(--br-11xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-5xs) var(--padding-4xs)
+    var(--padding-11xl);
+}
+.submenu {
+  align-self: stretch;
+  background-color: var(--light-fill-color-bg-white);
+  box-shadow: var(--shadow-);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  color: var(--light-text-color-text-1);
+}
+.vertical-menu-item1st-level {
+  border-radius: var(--br-11xs);
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.property-11st-level {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: 40px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.submenu1 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--light-fill-color-bg-white);
+  box-shadow: var(--shadow-);
+  border: 1px solid var(--light-line-color-border-2);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  color: var(--light-text-color-text-1);
+}
+.property-1variant2 {
+  position: absolute;
+  top: 220px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vertical-menu-item {
+  position: relative;
+  border-radius: var(--br-8xs);
+  border: 1px dashed var(--color-blueviolet);
+  box-sizing: border-box;
+  width: 100%;
+  height: 449px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--cn-regular-size);
+  color: var(--light-text-color-text-2);
+  font-family: var(--cn-regular);
+}

@@ -1,0 +1,268 @@
+.body {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0px;
+}
+.directiondown-icon {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon-wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.select {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-11xs);
+  background-color: var(--light-fill-color-fill-2);
+  width: 373px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.bg {
+  position: relative;
+  border-radius: var(--br-11xs);
+  background-color: var(--light-fill-color-bg-white);
+  border: 2px solid var(--light-line-color-border-2);
+  box-sizing: border-box;
+  width: 14px;
+  height: 14px;
+}
+.checkbox-input {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.label {
+  position: relative;
+  line-height: 22px;
+}
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0px;
+  gap: var(--gap-5xs);
+}
+.checkbox-group {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-9xs);
+  width: 180px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0px var(--padding-9xs) var(--padding-xs);
+  box-sizing: border-box;
+}
+.checkbox-group-wrapper {
+  position: absolute;
+  top: 37px;
+  left: 0px;
+  border-radius: var(--br-9xs);
+  background-color: var(--light-fill-color-bg-white);
+  border: 1px solid var(--light-line-color-border-2);
+  box-sizing: border-box;
+  width: 373px;
+  height: 168px;
+  overflow: hidden;
+  color: var(--light-text-color-text-1);
+}
+.property-1default {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 373px;
+  height: 32px;
+  overflow: hidden;
+}
+.cursor1 {
+  position: relative;
+  border-right: 1px solid var(--light-black);
+  box-sizing: border-box;
+  width: 1px;
+  height: 17px;
+}
+.cursor {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.select1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-11xs);
+  background-color: var(--light-fill-color-bg-white);
+  border: 1px solid var(--light-primary-primary-6);
+  box-sizing: border-box;
+  width: 373px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-xs);
+  gap: var(--gap-9xs);
+}
+.checkbox-group-container {
+  position: absolute;
+  top: 37px;
+  left: 0px;
+  border-radius: var(--br-9xs);
+  background-color: var(--light-fill-color-bg-white);
+  box-shadow: var(--shadow-1);
+  border: 1px solid var(--light-line-color-border-2);
+  box-sizing: border-box;
+  width: 373px;
+  height: 105px;
+  overflow-y: auto;
+  color: var(--light-text-color-text-1);
+}
+.property-1variant21 {
+  position: absolute;
+  top: 226px;
+  left: 20px;
+  width: 373px;
+  height: 205px;
+}
+.tag-text {
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+}
+.icon-wrapper2 {
+  border-radius: var(--br-81xl);
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.selection-item {
+  border-radius: var(--br-11xs);
+  background-color: var(--light-fill-color-fill-2);
+  border: 1px solid var(--light-fill-color-fill-2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-5xs);
+  gap: var(--gap-11xs);
+}
+.selection-item1 {
+  border-radius: var(--br-11xs);
+  background-color: var(--light-fill-color-fill-2);
+  border: 1px solid var(--light-fill-color-fill-2);
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-5xs);
+  gap: var(--gap-11xs);
+}
+.item-count {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.tipsclose-icon2 {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.inputtag {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-11xs);
+  background-color: var(--light-fill-color-bg-white);
+  border: 1px solid var(--light-primary-primary-6);
+  box-sizing: border-box;
+  width: 373px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-9xs) var(--padding-xs) var(--padding-9xs)
+    var(--padding-9xs);
+}
+.wrapper-icon {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  object-fit: cover;
+}
+.checkbox-group-frame {
+  position: absolute;
+  top: 37px;
+  left: 0px;
+  border-radius: var(--br-9xs);
+  background-color: var(--light-fill-color-bg-white);
+  border: 1px solid var(--light-line-color-border-2);
+  box-sizing: border-box;
+  width: 373px;
+  height: 100px;
+  overflow-y: auto;
+}
+.property-1variant3 {
+  position: absolute;
+  top: 503px;
+  left: 20px;
+  width: 373px;
+  height: 205px;
+  color: var(--light-text-color-text-1);
+}
+.property-1variant5 {
+  position: absolute;
+  top: 751px;
+  left: 20px;
+  width: 373px;
+  height: 32px;
+  color: var(--light-text-color-text-1);
+}
+.kindofquestion {
+  position: relative;
+  border-radius: var(--br-8xs);
+  border: 1px dashed var(--color-blueviolet);
+  box-sizing: border-box;
+  width: 100%;
+  height: 1085px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--cn-regular-size);
+  color: var(--light-text-color-text-3);
+  font-family: var(--cn-regular);
+}
